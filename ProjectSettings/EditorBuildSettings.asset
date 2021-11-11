@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HaonanScene.unity
+    path: Assets/Scenes/Tutorial Map.unity
     guid: 8e7e4c93852109f4daed283099d2b315
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: dd139e9a9517784459fcaa57ff82c26d, type: 2}

@@ -2,18 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
     public Transform player;
     public Transform guard1, guard2, guard3;
     public Transform destination;
+    public Text winText;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        winText.text = "";
     }
 
     // Update is called once per frame
@@ -43,7 +45,8 @@ public class GameControl : MonoBehaviour
 
     public void Win()
     {
-        SceneManager.LoadScene(0);
+        /*SceneManager.LoadScene(0);*/
+        winText.text = "Congratulations!";
     }
 
     public void Fail()

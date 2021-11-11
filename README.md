@@ -10,12 +10,12 @@ Features
 
 The player controls the character through the keyboard to avoid the guard. The W key is the jump key, and the A key and D key control the character to move to the left and right, respectively.
 
-Deployment steps
+Deployment Steps
 -------------------
 
 You can download the entire game file from github and open it with Unity. It is recommended to use 2021.1.17f1 and newer versions of Unity to open the game file, or enter this webpage(https://zenghaonan239.github.io/MPGD_Prototype_AI/build/index.html) to preview the game directly.
 
-Unity environment settings
+Unity Environment Settings
 -------------------
 
 When opening the game file with Unity, pay attention to installing the Input System package.
@@ -33,6 +33,6 @@ In addition, in order to avoid the situation that the screen becomes dark when r
 
 Please open the Tuturial Map scene file to run or test the game
 
-Directory structure description
+Directory Structure Description
 -------------------
 The main content of the game is in the assets folder. The Input folder mainly stores the relevant component files controlled by the player. The Scenes folder mainly stores the relevant files of the game scene. Our game prototype will run in the Tuturial Map scene, and the Material folder mainly Store the relevant materials of each element of the map, the Scripts folder mainly stores some script files

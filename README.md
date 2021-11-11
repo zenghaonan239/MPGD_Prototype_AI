@@ -13,7 +13,7 @@ The player controls the character through the keyboard to avoid the guard. The W
 Deployment Steps
 -------------------
 
-You can download the entire game file from github and open it with Unity. It is recommended to use 2021.1.17f1 and newer versions of Unity to open the game file, or enter this webpage(https://zenghaonan239.github.io/MPGD_Prototype_AI/build/index.html) to preview the game directly.
+You can download the entire game file from github and open it with Unity. It is recommended to use 2021.1.17f1 or newer versions of Unity to open the game file, or enter this webpage(https://zenghaonan239.github.io/MPGD_Prototype_AI/build/index.html) to preview the game directly.
 
 Unity Environment Settings
 -------------------

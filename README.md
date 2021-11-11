@@ -19,17 +19,17 @@ Unity environment settings
 -------------------
 
 When opening the game file with Unity, pay attention to installing the Input System package.
-* Add the Input System package:
-    (a)	Window → Package Manager.
-    (b)	Select ’Packages: Unity Registry’ in the top-left.
-    (c)	Search for ’Input System’.
-    (d)	Install (bottom-right; ’OK’ for warning) and restart Unity.
+* Add the Input System package:<br>
+    (a)	Window → Package Manager.<br>
+    (b)	Select ’Packages: Unity Registry’ in the top-left.<br>
+    (c)	Search for ’Input System’.<br>
+    (d)	Install (bottom-right; ’OK’ for warning) and restart Unity.<br>
 
 In addition, in order to avoid the situation that the screen becomes dark when reloading the scene, please make the following settings.
-* Lighting setting:
-    (a) Window→Rendering→Lighting
-    (b) Uncheck the Auto Generate in Scene
-    (c) Click the Generate Lighting button
+* Lighting setting:<br>
+    (a) Window→Rendering→Lighting<br>
+    (b) Uncheck the Auto Generate in Scene<br>
+    (c) Click the Generate Lighting button<br>
 
 Please open the Tuturial Map scene file to run or test the game
 

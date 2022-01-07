@@ -7,6 +7,7 @@ public class UIControl : MonoBehaviour
 {
     public GameObject ReturnUI;
     public GameObject SettingUI;
+    public GameObject StartUI;
 
     public void onTutorial()
     {
@@ -15,9 +16,23 @@ public class UIControl : MonoBehaviour
 
     public void onStart()
     {
-        SceneManager.LoadScene(2);//load Game scene 
+        StartUI.SetActive(true);//when press start button
     }
 
+    public void onMap1()
+    {
+        SceneManager.LoadScene(3);//load map1
+    }
+
+    public void onMap2()
+    {
+        SceneManager.LoadScene(3);//load map2
+    }
+
+    public void onReturnFromStart()//when press return button 
+    {
+        StartUI.SetActive(false);
+    }
 
     public void onReturn()//when press return button 
     {

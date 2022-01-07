@@ -1035,6 +1035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReturnUI: {fileID: 1237429459}
   SettingUI: {fileID: 0}
+  StartUI: {fileID: 0}
 --- !u!4 &355880874
 Transform:
   m_ObjectHideFlags: 0
@@ -3521,7 +3522,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959888053}
-  m_Text: 'Don''t touch the guard!
+  m_Text: 'Don''t be caught by the guards!
 
 
     W = Jump

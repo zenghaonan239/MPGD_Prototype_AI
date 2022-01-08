@@ -2087,7 +2087,7 @@ GameObject:
   - component: {fileID: 231091217}
   m_Layer: 0
   m_Name: Guard (1)
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5699,6 +5699,7 @@ GameObject:
   - component: {fileID: 542860639}
   - component: {fileID: 542860638}
   - component: {fileID: 542860637}
+  - component: {fileID: 542860644}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -5946,6 +5947,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542860635}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &542860644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542860635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1ce3f6cad5db7468b56878426a975a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &547399761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7913,7 +7926,7 @@ GameObject:
   - component: {fileID: 680061732}
   m_Layer: 0
   m_Name: Guard
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15579,7 +15592,7 @@ GameObject:
   - component: {fileID: 1338449587}
   m_Layer: 0
   m_Name: Key
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21685,7 +21698,7 @@ GameObject:
   - component: {fileID: 2024777976}
   m_Layer: 0
   m_Name: Game Story Message
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

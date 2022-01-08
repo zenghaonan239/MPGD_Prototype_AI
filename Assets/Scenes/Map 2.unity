@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 68715015}
   m_Layer: 0
   m_Name: Game Story Message
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -926,6 +926,7 @@ GameObject:
   - component: {fileID: 103318196}
   - component: {fileID: 103318195}
   - component: {fileID: 103318194}
+  - component: {fileID: 103318202}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1173,6 +1174,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &103318202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103318193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1ce3f6cad5db7468b56878426a975a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &105465905
 GameObject:
   m_ObjectHideFlags: 0
@@ -12352,7 +12365,7 @@ GameObject:
   - component: {fileID: 895955316}
   m_Layer: 0
   m_Name: Guard
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17538,7 +17551,7 @@ GameObject:
   - component: {fileID: 1367123699}
   m_Layer: 0
   m_Name: Key
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23458,7 +23471,7 @@ GameObject:
   - component: {fileID: 1842068387}
   m_Layer: 0
   m_Name: Guard (1)
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23713,7 +23726,7 @@ GameObject:
   - component: {fileID: 1845457699}
   m_Layer: 0
   m_Name: Climbing gloves
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25438,7 +25451,7 @@ GameObject:
   - component: {fileID: 1974108285}
   m_Layer: 0
   m_Name: Guard clothes
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 68715015}
   m_Layer: 0
   m_Name: Game Story Message
-  m_TagString: Guard
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17551,7 +17551,7 @@ GameObject:
   - component: {fileID: 1367123699}
   m_Layer: 0
   m_Name: Key
-  m_TagString: Guard
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23726,7 +23726,7 @@ GameObject:
   - component: {fileID: 1845457699}
   m_Layer: 0
   m_Name: Climbing gloves
-  m_TagString: Guard
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25451,7 +25451,7 @@ GameObject:
   - component: {fileID: 1974108285}
   m_Layer: 0
   m_Name: Guard clothes
-  m_TagString: Guard
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

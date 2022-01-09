@@ -12,7 +12,7 @@ public class Patroller : MonoBehaviour
 
     void Start()
     {
-        //waypointIndex = 0;
+        waypointIndex = 0;
         transform.LookAt(waypoints[waypointIndex].position);
 
     }

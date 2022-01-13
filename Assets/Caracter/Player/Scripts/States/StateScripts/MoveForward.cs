@@ -39,7 +39,7 @@ public class MoveForward : StateData
             control.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
             if (!CheckFront(control))
             {
-                control.transform.Translate(Vector3.forward * Speed * 2f * SpeedGraph.Evaluate(stateInfo.normalizedTime) * Time.deltaTime);
+                control.transform.Translate(Vector3.forward * Speed * 3f * SpeedGraph.Evaluate(stateInfo.normalizedTime) * Time.deltaTime);
             }
         }
 
@@ -48,7 +48,7 @@ public class MoveForward : StateData
             control.transform.rotation = Quaternion.Euler(0f, -90f, 0f);
             if (!CheckFront(control))
             {
-                control.transform.Translate(Vector3.forward * Speed * 2f * SpeedGraph.Evaluate(stateInfo.normalizedTime) * Time.deltaTime);
+                control.transform.Translate(Vector3.forward * Speed * 3f * SpeedGraph.Evaluate(stateInfo.normalizedTime) * Time.deltaTime);
             }
         }
     }

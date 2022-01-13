@@ -2,45 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace roundbeargames_tutorial
+public class ManualInput : MonoBehaviour
 {
-    public class ManualInput : MonoBehaviour
-    {
-        private CharacterControl characterControl;
+    private CharacterControl characterControl;
 
-        private void Awake()
+    private void Awake()
+    {
+        characterControl = this.gameObject.GetComponent<CharacterControl>();
+    }
+
+    void Update()
+    {
+        if (VirtualInputManager.Instance.MoveRight)
         {
-            characterControl = this.gameObject.GetComponent<CharacterControl>();
+            characterControl.MoveRight = true;
+        }
+        else
+        {
+            characterControl.MoveRight = false;
         }
 
-        void Update()
+        if (VirtualInputManager.Instance.MoveLeft)
         {
-            if (VirtualInputManager.Instance.MoveRight)
-            {
-                characterControl.MoveRight = true;
-            }
-            else
-            {
-                characterControl.MoveRight = false;
-            }
+            characterControl.MoveLeft = true;
+        }
+        else
+        {
+            characterControl.MoveLeft = false;
+        }
 
-            if (VirtualInputManager.Instance.MoveLeft)
-            {
-                characterControl.MoveLeft = true;
-            }
-            else
-            {
-                characterControl.MoveLeft = false;
-            }
-
-            if (VirtualInputManager.Instance.Jump)
-            {
-                characterControl.Jump = true;
-            }
-            else
-            {
-                characterControl.Jump = false;
-            }
+        if (VirtualInputManager.Instance.Jump)
+        {
+            characterControl.Jump = true;
+        }
+        else
+        {
+            characterControl.Jump = false;
         }
     }
 }

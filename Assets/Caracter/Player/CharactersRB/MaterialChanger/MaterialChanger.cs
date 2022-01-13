@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace RoundBearGames_ObstacleCourse
-{
+
     public class MaterialChanger : MonoBehaviour
     {
         public Material material;
@@ -95,4 +94,3 @@ namespace RoundBearGames_ObstacleCourse
             }
         }
     }
-}

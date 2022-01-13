@@ -20,7 +20,8 @@ public class collisionDetect : MonoBehaviour
      void OnCollisionEnter(Collision collision) {
         if (collision.transform.tag == "Guard")
         {
-            SceneManager.LoadScene(3);//load map1
+            int index = SceneManager.GetActiveScene().buildIndex;// get index of current scene
+            SceneManager.LoadScene(index);//reload current scene
         }
      }
 }

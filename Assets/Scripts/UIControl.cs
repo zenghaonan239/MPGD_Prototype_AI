@@ -8,6 +8,8 @@ public class UIControl : MonoBehaviour
     public GameObject ReturnUI;
     public GameObject SettingUI;
     public GameObject StartUI;
+    public GameObject needKeyUI;
+    public GameObject FindKeyUI;
 
     public void onTutorial()
     {
@@ -59,5 +61,13 @@ public class UIControl : MonoBehaviour
         SettingUI.SetActive(false);
     }
 
+    public void onNeedKeyOKbutton()
+    {
+        needKeyUI.SetActive(false);
+    }
 
+    public void onFindKeyOKbutton()
+    {
+        FindKeyUI.SetActive(false);
+    }
 }

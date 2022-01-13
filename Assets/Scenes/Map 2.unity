@@ -665,7 +665,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 68715013}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -26506,7 +26506,7 @@ GameObject:
   - component: {fileID: 1974108285}
   m_Layer: 0
   m_Name: Guard clothes
-  m_TagString: Untagged
+  m_TagString: Guard Clothes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27854,7 +27854,9 @@ MonoBehaviour:
   WinUI: {fileID: 1874305003}
   needKeyUI: {fileID: 1406754432}
   FindKeyUI: {fileID: 360813376}
+  FindClothesUI: {fileID: 0}
   Key: {fileID: 1367123697}
+  GuardClothes: {fileID: 1974108283}
 --- !u!114 &2069151285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27988,7 +27990,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069151283}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 25.7, y: 1.6, z: 19.2}
+  m_LocalPosition: {x: 24.43, y: 1.032, z: 19.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 918551894}

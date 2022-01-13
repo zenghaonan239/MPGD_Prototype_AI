@@ -3638,7 +3638,9 @@ MonoBehaviour:
   WinUI: {fileID: 138489449}
   needKeyUI: {fileID: 434739475}
   FindKeyUI: {fileID: 846568549}
+  FindClothesUI: {fileID: 0}
   Key: {fileID: 1338449585}
+  GuardClothes: {fileID: 0}
 --- !u!114 &339835508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3772,7 +3774,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339835506}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 24.594, y: 1.52, z: 19.197}
+  m_LocalPosition: {x: 24.594, y: 0.91, z: 19.197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1314073642}
@@ -23186,7 +23188,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2024777974}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1

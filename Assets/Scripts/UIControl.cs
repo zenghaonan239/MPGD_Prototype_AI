@@ -13,7 +13,7 @@ public class UIControl : MonoBehaviour
 
     public void onTutorial()
     {
-        SceneManager.LoadScene(0);//load tutorial scene 
+        SceneManager.LoadScene(1);//load tutorial scene 
     }
 
     public void onStart()
@@ -48,7 +48,7 @@ public class UIControl : MonoBehaviour
 
     public void onReturnToMain()//go back to main menu
     {
-        SceneManager.LoadScene(1);//load main menu scene 
+        SceneManager.LoadScene(0);//load main menu scene 
     }
 
     public void onSetting()//when press return button 

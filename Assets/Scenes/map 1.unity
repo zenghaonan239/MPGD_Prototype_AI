@@ -14528,9 +14528,8 @@ TextMesh:
   m_GameObject: {fileID: 1095130979}
   m_Text: "You didn't commit a crime, but were \nsent to jail by mistake and lose
     your \nfreedom. However, it\u2019s not hard for you \nto escape from the prison.
-    \nBy controlling the keys A, D, and Space\n, you can move left, right and jump.
-    \nYou need to find the right path and \navoid the guards! If you touch the \nguards,
-    you will lose the game.\r\nBe careful!\r\n"
+    \n \nYou need to find the right path and \navoid the guards! If you touch the
+    \nguards, you will lose the game.\r\nBe careful!\r\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

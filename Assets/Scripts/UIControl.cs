@@ -26,7 +26,7 @@ public class UIControl : MonoBehaviour
 
     public void onMap2()
     {
-        SceneManager.LoadScene(3);//load map2
+        SceneManager.LoadScene(4);//load map2
     }
 
     public void onReturnFromStart()//when press return button 

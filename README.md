@@ -8,7 +8,7 @@ The theme of the game is prison escape, and the game type is a 3D horizontal act
 Features
 -------------------
 
-The player controls the character through the keyboard to avoid the guard. The W key is the jump key, and the A key and D key control the character to move to the left and right, respectively.
+The player controls the character through the keyboard to avoid the guard. The Space key is the jump key, and the A key and D key control the character to move to the left and right, respectively.
 
 Deployment Steps
 -------------------
@@ -35,4 +35,14 @@ Please open the Tuturial Map scene file to run or test the game
 
 Directory Structure Description
 -------------------
-The main content of the game is in the assets folder. The Input folder mainly stores the relevant component files controlled by the player. The Scenes folder mainly stores the relevant files of the game scene. Our game prototype will run in the Tuturial Map scene, and the Material folder mainly Store the relevant materials of each element of the map, the Scripts folder mainly stores some script files
+The main content of the game is in the assets folder. The Input folder mainly stores the relevant component files controlled by the player. The Scenes folder mainly stores the relevant files of the game scene. The Material folder mainly Store the relevant materials of each element of the map, the Scripts folder mainly stores some script files. Our game prototype will run in the Tuturial Map scene, and the SampleScene will run as entry UI interface, you can choose tutorial, level 1 or level 2 in the UI interface. Map1 scene and Map2 scene will run as level 1 and level 2 in the game respectively. 
+
+
+External Reference
+-------------------
+Wall material, Door model: https://assetstore.unity.com/packages/3d/environments/stylized-hand-painted-dungeon-free-173934
+Floor material: https://assetstore.unity.com/packages/3d/environments/dungeons/decrepit-dungeon-lite-33936
+Character model: https://assetstore.unity.com/packages/3d/characters/humanoids/humans/adventure-character-201384
+Character action: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
+Background music: https://assetstore.unity.com/packages/audio/music/orchestral/music-the-chase-157802
+Key 3D model: https://assetstore.unity.com/packages/3d/props/rust-key-167590

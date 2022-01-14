@@ -35,7 +35,7 @@ Please open the Tuturial Map scene file to run or test the game
 
 Directory Structure Description
 -------------------
-The main content of the game is in the assets folder. The Input folder mainly stores the relevant component files controlled by the player. The Scenes folder mainly stores the relevant files of the game scene. The Material folder mainly Store the relevant materials of each element of the map, the Scripts folder mainly stores some script files. Our game prototype will run in the Tuturial Map scene, and the SampleScene will run as entry UI interface, you can choose tutorial, level 1 or level 2 in the UI interface. Map1 scene and Map2 scene will run as level 1 and level 2 respectively. 
+The main content of the game is in the assets folder. The Input folder mainly stores the relevant component files controlled by the player. The Scenes folder mainly stores the relevant files of the game scene. The Material folder mainly Store the relevant materials of each element of the map, the Scripts folder mainly stores some script files. Our game prototype will run in the Tuturial Map scene, and the SampleScene will run as entry UI interface, you can choose tutorial, level 1 or level 2 in the UI interface. Map1 scene and Map2 scene will run as level 1 and level 2 in the game respectively. 
 
 
 External Reference

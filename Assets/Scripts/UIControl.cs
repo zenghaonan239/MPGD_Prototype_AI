@@ -10,6 +10,7 @@ public class UIControl : MonoBehaviour
     public GameObject StartUI;
     public GameObject needKeyUI;
     public GameObject FindKeyUI;
+    public GameObject FindClothesUI;
 
     public void onTutorial()
     {
@@ -69,5 +70,10 @@ public class UIControl : MonoBehaviour
     public void onFindKeyOKbutton()
     {
         FindKeyUI.SetActive(false);
+    }
+
+    public void onFindClothesOKbutton()
+    {
+        FindClothesUI.SetActive(false);
     }
 }

@@ -15,6 +15,7 @@ public class collisionDetect : MonoBehaviour
     public GameObject FindClothesUI;
     public GameObject Key;
     public GameObject GuardClothes;
+   
 
     void Start()
     {
@@ -33,7 +34,7 @@ public class collisionDetect : MonoBehaviour
 
         if (collision.transform.tag == "Guard Clothes")
         {
-            // FindKeyUI.SetActive(true);
+            FindClothesUI.SetActive(true);
             GuardClothes.SetActive(false);
             hasClothes = true;
         }

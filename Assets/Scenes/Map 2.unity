@@ -705,6 +705,7 @@ MonoBehaviour:
   StartUI: {fileID: 0}
   needKeyUI: {fileID: 1406754432}
   FindKeyUI: {fileID: 360813376}
+  FindClothesUI: {fileID: 360813376}
 --- !u!4 &56885924
 Transform:
   m_ObjectHideFlags: 0
@@ -4947,7 +4948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 360813377}
   m_Layer: 5
-  m_Name: FindKeyUI
+  m_Name: FindClothesUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6099,8 +6100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 47.312}
-  m_SizeDelta: {x: 235.7397, y: 64.6238}
+  m_AnchoredPosition: {x: 6.9, y: 71.021}
+  m_SizeDelta: {x: 318.8585, y: 112.0423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434130679
 MonoBehaviour:
@@ -6129,13 +6130,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You find a key
+  m_Text: 'You find a guard cloth
+
+    They will not recognize you'
 --- !u!222 &434130680
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12865,7 +12868,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 56885923}
         m_TargetAssemblyTypeName: UIControl, Assembly-CSharp
-        m_MethodName: onFindKeyOKbutton
+        m_MethodName: onFindClothesOKbutton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14354,6 +14357,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78df1db2fbc8ec64f949fac0c05bf693, type: 3}
+--- !u!1 &911430083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 374289202576707483, guid: 78df1db2fbc8ec64f949fac0c05bf693, type: 3}
+  m_PrefabInstance: {fileID: 911430082}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &911430084
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911430083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.132838, y: 0.2813115, z: 0.2326241}
+  m_Center: {x: -0.0054529547, y: 0.021796025, z: 3.1903867e-17}
 --- !u!4 &918551894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2675361429882964898, guid: da1203547328fdb41974e0b5334e799a, type: 3}
@@ -29921,7 +29942,7 @@ MonoBehaviour:
   WinUI: {fileID: 1874305003}
   needKeyUI: {fileID: 1406754432}
   FindKeyUI: {fileID: 360813376}
-  FindClothesUI: {fileID: 0}
+  FindClothesUI: {fileID: 360813376}
   Key: {fileID: 1367123697}
   GuardClothes: {fileID: 1974108283}
 --- !u!114 &2069151285
